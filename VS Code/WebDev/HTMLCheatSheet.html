@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to HTML Learning</h1>
+</header>
+
+<nav>
+    <a href="#introduction">Introduction</a>
+    <a href="#elements">HTML Elements</a>
+    <a href="#forms">Forms</a>
+    <a href="#media">Media</a>
+</nav>
+
+<section id="introduction">
+    <h2>Introduction</h2>
+    <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure of web pages using markup.</p>
+</section>
+
+<section id="elements">
+    <h2>HTML Elements</h2>
+    <p>HTML documents are made up of elements, which are represented by tags. Here are some common HTML elements:</p>
+    <ul>
+        <li><strong>&lt;h1&gt; to &lt;h6&gt;:</strong> Headings</li>
+        <li><strong>&lt;p&gt;:</strong> Paragraphs</li>
+        <li><strong>&lt;a&gt;:</strong> Links</li>
+        <li><strong>&lt;img&gt;:</strong> Images</li>
+        <li><strong>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;:</strong> Lists</li>
+        <li><strong>&lt;div&gt;:</strong> Division (block element)</li>
+        <li><strong>&lt;span&gt;:</strong> Inline container</li>
+    </ul>
+</section>
+
+<section id="forms">
+    <h2>HTML Forms</h2>
+    <p>Forms are used to collect user input. Here is a simple form example:</p>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<section id="media">
+    <h2>Embedding Media</h2>
+    <p>You can embed images and videos in your HTML:</p>
+    <h3>Image Example:</h3>
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    
+    <h3>Video Example:</h3>
+    <video width="300" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<footer>
+    <p>&copy; 2024 Learning HTML. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
