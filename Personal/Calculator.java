@@ -1,9 +1,9 @@
 import java.util.Scanner;
-
+//Basics
 public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        // HiHi
         System.out.println("Welcome to the Calculator!");
         System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
