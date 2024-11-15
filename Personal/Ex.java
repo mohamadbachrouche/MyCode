@@ -3,7 +3,7 @@ public class Ex {
     public static void main(String[] args) {
         
     Scanner scanner = new Scanner(System.in);
-    
+    /*
     System.out.println("What is your Name? ");
     String Name = scanner.nextLine();
     System.out.println(" Hello " + Name);
@@ -25,7 +25,7 @@ public class Ex {
    double bmi = weight/(height*height);
    System.out.printf("your BMI is: %2f%n" , bmi);
 
-    System.out.printf("At %d years old and as a %s this number may not be walid %n", age, gender);
+    System.out.printf("At %d years old and as a %s this number may not be valid %n", age, gender);
     if (bmi < 18.5) {
          System.out.println("Underweight");
     } else if (bmi < 24.9) {
@@ -35,7 +35,82 @@ public class Ex {
     } else {
          System.out.println("Obesity");
     }
-    
+    */
+    /* 
+     System.out.println("give the 1st term: ");
+     double firstTerm = scanner.nextDouble();
+     
+     System.out.println("give the 2nd term: ");
+     double secondTerm = scanner.nextDouble();
+     
+     System.out.println("give operator (- , + , * , / , % ): ");
+     char operator = scanner.next().charAt(0);
+     
+
+     switch (operator) {
+          case '+':
+               System.out.println("the result of the add is: " +(firstTerm + secondTerm));
+               break;
+          case '-':
+           System.out.println("the result of the sub is: " +(firstTerm - secondTerm));
+               break;
+          case '*':
+           System.out.println("the result of the mul is: " +(firstTerm * secondTerm));
+               break;
+          case '/':
+          if (secondTerm > 0) {
+               System.out.println("the result of the mod is: " +(firstTerm / secondTerm));
+           }
+               break;
+          case '%':
+           if (firstTerm > secondTerm) {
+               System.out.println("the result of the mod is: " +(firstTerm % secondTerm));
+           }
+               break;
+          
+          default:
+           System.out.println("invalid");
+               break;
+     }
+     
+*/
+/*
+System.out.println("write a greeting:  ");
+String greeting = scanner.nextLine();
+
+System.out.println("Length: " + greeting.length());
+System.out.println("Uppercase: " + greeting.toUpperCase());
+System.out.println("Lowercase: " + greeting.toLowerCase());
+System.out.println("Substring: " + greeting.substring(1, 8));
+
+*/
+
+     
+String correctUserName = "MoBach";
+String correctPassWord = "Bach@2001";
+int attempts = 0;
+boolean authenticated = false;
+
+while (attempts < 3 && !authenticated) {
+    System.out.println("Enter username:");
+    String username = scanner.nextLine();
+
+    System.out.println("Enter password:");
+    String password = scanner.nextLine();
+
+    if (username.equals(correctUserName) && password.equals(correctPassWord)) {
+        authenticated = true;
+        System.out.println("Welcome!");
+    } else {
+        attempts++;
+        System.out.println("Incorrect username or password. Attempts left: " + (3 - attempts));
+    }
+}
+
+if (!authenticated) {
+    System.out.println("Mino Ant?");
+}
+
     scanner.close();
 
 
