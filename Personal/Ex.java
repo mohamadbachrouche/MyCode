@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 public class Ex {
     public static void main(String[] args) {
@@ -85,7 +86,7 @@ System.out.println("Substring: " + greeting.substring(1, 8));
 
 */
 
-     
+ /*    
 String correctUserName = "MoBach";
 String correctPassWord = "Bach@2001";
 int attempts = 0;
@@ -110,6 +111,55 @@ while (attempts < 3 && !authenticated) {
 if (!authenticated) {
     System.out.println("Mino Ant?");
 }
+*/
+
+/*
+int[] numbers = new int[5];
+
+System.out.println("Enter 5 integers:");
+for (int i = 0; i < numbers.length; i++) {
+    System.out.print("Number " + (i + 1) + ": ");
+    numbers[i] = scanner.nextInt();
+}
+
+System.out.println("The numbers you entered are:");
+for (int number : numbers) {
+    System.out.println(number);
+}
+*/
+
+/*
+int[] numbers = new int[5];
+
+System.out.println("Enter 5 integers:");
+for (int i = 0; i < numbers.length; i++) {
+    System.out.print("Number " + (i + 1) + ": ");
+    numbers[i] = scanner.nextInt();
+}
+
+int largest = numbers[0];
+int smallest = numbers[0];
+
+for (int number : numbers) {
+    if (number > largest) {
+        largest = number;
+    }
+    if (number < smallest) {
+        smallest = number;
+    }
+}
+
+System.out.println("Largest number: " + largest);
+System.out.println("Smallest number: " + smallest);
+*/
+
+
+
+
+
+
+
+
 
     scanner.close();
 
