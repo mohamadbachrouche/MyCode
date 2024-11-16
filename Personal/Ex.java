@@ -153,8 +153,11 @@ System.out.println("Largest number: " + largest);
 System.out.println("Smallest number: " + smallest);
 */
 
+/*int[] numbers = {56, 275, 60, 4, 47};  // Initialize with values
 
-
+Arrays.sort(numbers);
+System.out.println("Sorted numbers array: " + Arrays.toString(numbers));
+*/
 
 
 
