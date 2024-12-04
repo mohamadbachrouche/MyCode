@@ -1,3 +1,4 @@
+/*
 import java.util.ArrayList;
 
 public class Hochschule {
@@ -41,3 +42,4 @@ public class Hochschule {
         }
     }
 }
+*/
