@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f35439-2c22-4549-86b7-fd47eb754afb" name="Changes" comment="" />
+    <list default="true" id="61f35439-2c22-4549-86b7-fd47eb754afb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTW/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/HTW/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personal/Student.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mohamadbachrouche&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mohamadbachrouche/MyRepo.git&quot;,
+    &quot;accountId&quot;: &quot;27e09728-a0da-4889-b42c-b9e8f5962747&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -32,8 +48,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/mohamadbachrouche/Documents/MyCode&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -76,6 +94,14 @@
       <workItem from="1733257565267" duration="353000" />
       <workItem from="1733261147100" duration="185000" />
       <workItem from="1733261415895" duration="8000" />
+      <workItem from="1733852292978" duration="137000" />
+      <workItem from="1733852434871" duration="1063000" />
+      <workItem from="1733950430880" duration="99000" />
+      <workItem from="1733950566956" duration="146000" />
+      <workItem from="1733950728474" duration="179000" />
+      <workItem from="1733950922002" duration="144000" />
+      <workItem from="1733951107129" duration="113000" />
+      <workItem from="1733951231369" duration="62000" />
     </task>
     <servers />
   </component>
