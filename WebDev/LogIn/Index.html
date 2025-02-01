@@ -62,10 +62,52 @@
             font-size: 14px;
             text-align: center;
         }
+
+        .social-login {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .social-login button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .google-login {
+            background-color: #4285F4; /* Google blue */
+        }
+
+        .apple-login {
+            background-color: #000000; /* Black for Apple */
+            color: white;
+        }
+
+        .microsoft-login {
+            background-color: #0078d4; /* Microsoft blue */
+        }
+
+        .social-login button:hover {
+            opacity: 0.9;
+        }
+
+        .social-login button i {
+            margin-right: 8px;
+        }
     </style>
 </head>
 <body>
     <div class="login-container">
+        <h2>Welcome to Our Service</h2>
         <h2>Login</h2>
         <form id="loginForm">
             <label for="username">Username:</label>
@@ -77,8 +119,16 @@
             <button type="submit">Login</button>
         </form>
         <p id="error-message" class="error-message"></p>
+        
+        <!-- Styled social login options -->
+        <div class="social-login">
+            <button class="apple-login"><i class="fab fa-apple"></i>Continue with Apple</button>
+            <button class="google-login"><i class="fab fa-google"></i>Continue with Google</button>
+            <button class="microsoft-login"><i class="fab fa-windows"></i>Continue with Microsoft</button>
+        </div>
     </div>
 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script>
         document.getElementById('loginForm').addEventListener('submit', function(event) {
             event.preventDefault();
@@ -94,6 +144,22 @@
             } else {
                 document.getElementById('error-message').textContent = 'Invalid username or password.';
             }
+        });
+
+        // Add event listeners for social login buttons if needed
+        document.querySelector('.google-login').addEventListener('click', function() {
+            // Implement Google login logic here
+            alert('Google login clicked');
+        });
+
+        document.querySelector('.apple-login').addEventListener('click', function() {
+            // Implement Apple login logic here
+            alert('Apple login clicked');
+        });
+
+        document.querySelector('.microsoft-login').addEventListener('click', function() {
+            // Implement Microsoft login logic here
+            alert('Microsoft login clicked');
         });
     </script>
 </body>
