@@ -17,12 +17,16 @@ public class Student {
 
     public String getFirstName() { return firstName; }
     public void setFirstName(String firstName) { this.firstName = firstName; }
+    
     public String getLastName() { return lastName; }
     public void setLastName(String lastName) { this.lastName = lastName; }
+    
     public String getMatrNr() { return matrNr; }
     public void setMatrNr(String matrNr) { this.matrNr = matrNr; }
+    
     public String getDegreeProgram() { return degreeProgram; }
     public void setDegreeProgram(String degreeProgram) { this.degreeProgram = degreeProgram; }
+    
     public int getSemester() { return semester; }
     public void setSemester(int semester) { this.semester = semester; }
 

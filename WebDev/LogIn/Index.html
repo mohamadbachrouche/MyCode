@@ -12,96 +12,112 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
 
         .login-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 300px;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            width: 320px;
+            backdrop-filter: blur(10px);
         }
 
         h2 {
             text-align: center;
             margin-bottom: 20px;
+            color: #2d3748;
         }
 
         label {
             font-size: 14px;
             margin-bottom: 5px;
             display: block;
+            color: #4a5568;
+            font-weight: 500;
         }
 
         input {
             width: 100%;
-            padding: 8px;
+            padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            border: 2px solid #e2e8f0;
+            border-radius: 6px;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
 
         button {
             width: 100%;
-            padding: 10px;
-            background-color: #4CAF50;
+            padding: 12px;
+            background: linear-gradient(to right, #667eea, #764ba2);
             color: white;
             border: none;
-            border-radius: 4px;
+            border-radius: 6px;
             font-size: 16px;
             cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
         button:hover {
-            background-color: #45a049;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
         }
 
         .error-message {
-            color: red;
+            color: #e53e3e;
             font-size: 14px;
             text-align: center;
+            margin-top: 8px;
         }
 
         .social-login {
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            margin-top: 20px;
+            gap: 12px;
+            margin-top: 24px;
         }
 
         .social-login button {
             width: 100%;
-            padding: 10px;
+            padding: 12px;
             border: none;
-            border-radius: 4px;
+            border-radius: 6px;
             font-size: 16px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
 
         .google-login {
-            background-color: #4285F4; /* Google blue */
+            background: linear-gradient(to right, #4285F4, #34A853);
         }
 
         .apple-login {
-            background-color: #000000; /* Black for Apple */
-            color: white;
+            background: linear-gradient(to right, #000000, #2c2c2c);
         }
 
         .microsoft-login {
-            background-color: #0078d4; /* Microsoft blue */
+            background: linear-gradient(to right, #00a4ef, #0078d4);
         }
 
         .social-login button:hover {
-            opacity: 0.9;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
         .social-login button i {
-            margin-right: 8px;
+            margin-right: 12px;
+            font-size: 18px;
         }
     </style>
 </head>
